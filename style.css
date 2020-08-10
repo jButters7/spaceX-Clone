@@ -1,0 +1,138 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* *{
+    box-sizing: border-box;
+} */
+/*-------------MY STYLES-----------*/
+
+body{
+    height: 600vh;
+    width: 100vh;
+    background-color: black;
+}
+
+header{
+    padding: 40px 40px 40px 70px;
+    width: 100vw;
+    z-index: 10;
+    position: fixed;
+    display: flex;
+    align-items: center;
+}
+
+h2{
+    font-size: 45px;
+    font-family: arial, verdana, sans-serif;
+    color: white;
+    margin-top: 15px;
+}
+
+h5{
+    font-size: 20px;
+    font-family: arial, verdana, sans-serif;
+    color: white;
+}
+
+.nav-bar{
+    color: white;
+    font-family: arial, verdana, sans-serif;
+    font-size: 12px;
+}
+
+.menu-items{
+    display: flex;
+    list-style: none;
+}
+
+.menu-items > li{
+    margin: 15px;
+}
+
+.background-image{
+    background-image: url(https://1.bp.blogspot.com/-E1D7MVaG88k/Xyd-kwUJoMI/AAAAAAAF7Ps/RuSkM0Dd1KcI3UUjoXzjtey5gEWFK_uSwCLcBGAsYHQ/w1200-h630-p-k-no-nu/crewdragon.jpg);
+    background-size: cover;
+}
+
+.mission-complete{
+    object-fit: fill; 
+    height: 100vh;
+    width: 100vw;
+}
+
+.full-viewport{
+    height:100vh;
+    width:100vw
+}
+
+.logo{
+    width: 210px;
+    height: 26px;
+    filter: invert(100%);
+    display: flex;
+}
+
+.info-on-image{
+    width: 45vw;
+    margin-left: 80px;
+    position: relative;
+    top: 60vh;
+    right: 10px;
+}
+
+.custom-btn{
+    border: 2px solid white;
+    color: white;
+    padding: 10px;
+    width: 170px;
+    height: 40px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
