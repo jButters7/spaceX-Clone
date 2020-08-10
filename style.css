@@ -79,25 +79,39 @@ h5{
     color: white;
 }
 
+
+
 .nav-bar{
     color: white;
     font-family: arial, verdana, sans-serif;
     font-size: 12px;
 }
 
+li > a{
+    color: white;
+    text-decoration: none;
+}
+
+
 .menu-items{
     display: flex;
     list-style: none;
+    text-decoration: none;
 }
 
 .menu-items > li{
     margin: 15px;
 }
 
-.background-image{
+.background-image-mc{
     background-image: url(https://1.bp.blogspot.com/-E1D7MVaG88k/Xyd-kwUJoMI/AAAAAAAF7Ps/RuSkM0Dd1KcI3UUjoXzjtey5gEWFK_uSwCLcBGAsYHQ/w1200-h630-p-k-no-nu/crewdragon.jpg);
     background-size: cover;
 }
+
+/* .background-image-sm{
+    background-image: url(https://1.bp.blogspot.com/-E1D7MVaG88k/Xyd-kwUJoMI/AAAAAAAF7Ps/RuSkM0Dd1KcI3UUjoXzjtey5gEWFK_uSwCLcBGAsYHQ/w1200-h630-p-k-no-nu/crewdragon.jpg);
+    background-size: cover;
+} */
 
 .mission-complete{
     object-fit: fill; 
@@ -135,4 +149,10 @@ h5{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.custom-btn:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
 }
